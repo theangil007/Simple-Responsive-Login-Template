@@ -1,0 +1,125 @@
+/**************This is a simple login page design by Angil Chhetri***********************/
+             /*Thank you for using my template*/
+             /*Visit www.angil.com.np For more Templates*/
+             /*  Thank You */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main-background {
+    background: linear-gradient(to bottom, rgba(0,0,0,.6), rgba(0,0,0,.3)), url('https://coolbackgrounds.io/images/unsplash/josh-bean-medium-9501ba9f.jpg');
+    width: 100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.input-container {
+    display: flex;
+    height:350px;
+    width: 25%;
+    background-color: rgba(0,0,0,.5);
+    padding:10px 50px;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 18px;
+    margin-bottom: 30px;
+}
+.input-container h2 {
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top:20px;
+    left:25px;
+    letter-spacing: 2px;
+}
+.form-container {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.placeicons {
+    font-family: fontawesome;
+}
+.icon input {
+    width:300px;
+    height:40px;
+    font-size:18px;
+    border-radius: 8px;
+    padding-left:10px;
+    outline: none;
+    margin-bottom: 10px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    color:white;
+}
+.checkbox {
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left:5px;
+}
+.checkbox p {
+    color:rgba(255,255,255,.5);
+}
+.submit_btn {
+    background-color:rgba(87,184,69);
+    margin-top:5px;
+    width:300px;
+    height:40px;
+    font-size:18px;
+    border-radius: 25px 25px 25px 25px;
+    padding-left:10px;
+    outline: none;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border:none;
+    color:#fff;
+    font-size: bold;
+}
+.submit_btn:hover {
+    background-color:rgb(64, 165, 46);
+    border:none
+}
+::placeholder {
+    color:rgba(255,255,255,.7);
+}
+.forget-links {
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.forget-links a{
+    text-decoration: none;
+    color:rgba(255,255,255,.5)
+}
+/*Responsive Area*/
+@media only screen and (max-width: 1250px) {
+    .input-container {width: 30%;}
+}
+@media only screen and (max-width: 1050px) {
+    .input-container {width: 35%;}
+}
+@media only screen and (max-width: 878px) {
+    .input-container {width: 45%;}
+}
+@media only screen and (max-width: 706px) {
+    .input-container {width: 55%;}
+}
+@media only screen and (max-width: 575px) {
+    .input-container {width: 65%;}
+}
+@media only screen and (max-width: 480px) {
+    .input-container {width: 75%;}
+}
+@media only screen and (max-width: 420px) {
+    .input-container {width: 85%;}
+}
+@media only screen and (max-width: 360px) {
+    .input-container {width: 95%;}
+}
