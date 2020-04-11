@@ -1,4 +1,4 @@
-Demo:
+Screenshot:
 Desktop View : https://ibb.co/LzG4f1K
 Mobile View  : https://ibb.co/rpkXZhw
 
